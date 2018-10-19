@@ -1,0 +1,630 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Krub:200');
+
+
+body{
+    font-family: 'Krub', sans-serif;
+}
+
+
+/********************************************
+
+            Index page Design 
+
+*********************************************/
+
+
+/* Head section design  */
+
+.head-section{
+    background-color:#232E34;
+    padding: 10px 0px;
+}
+
+.container{
+
+width: 1100px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.head-section .logo{
+
+float: left;
+width: 40%;
+}
+
+.head-section .logo h1{
+font-family: 'Codystar', cursive;
+font-size: 32px;
+font-weight: bolder;
+color: #fff;
+display: block;
+
+}
+
+
+.head-nav{
+width: 60%;
+float: left;
+}
+
+.head-nav ul{
+text-align: right;
+}
+
+.head-nav ul li{
+display: inline-block;
+list-style: none;
+
+}
+
+.head-nav ul li a {
+
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+display: block;
+text-transform: uppercase;
+padding: 10px 14px;
+}
+
+
+
+/* body-section */
+
+.home-body-section{
+
+background: url('../images/background.jpg') no-repeat top center;
+background-size: cover;
+height: 91vh;
+}
+
+.home-body-contain{
+
+width: 600px;
+margin: 0 auto;
+color: #fff;
+padding: 170px 0;
+text-align: -webkit-left;
+}
+
+
+.home-body-contain h4 span{
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+
+
+.home-body-contain h1 span{
+    
+margin-left: 400px;
+    
+}
+
+
+/********************************************
+
+            About page Design 
+
+*********************************************/
+
+
+
+.about-section{
+    width: 100%;
+    background: white;
+    margin: 30px 0;
+}
+
+
+
+/* header part start */
+
+.about-head{
+
+height: 200px;
+
+width: 45%;
+
+padding: 20px 0;
+
+margin-left: 0 auto;
+
+
+margin: 0 auto;
+}
+
+.about-head h1{
+
+    text-align: center;
+    font-size:32px;
+    margin: 15px;
+}
+
+.about-head h1 span{
+
+    color: #F8333C;
+}
+
+.about-head p {
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+}
+
+
+
+/* body-section  start*/
+
+.about-body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.about-body-left{
+
+    width: 60%;
+    float: left;
+
+}
+
+.about-body-right {
+    width: 40%;
+    float: right;
+}
+
+/* about-content */
+
+.about-content {
+    margin-bottom: 0;
+}
+
+
+.about-content p b {
+    font-weight: 500; 
+    font-size:22px;
+}
+
+
+.about-content p span{
+
+    font-weight: 600; 
+    font-size: 22px;
+}
+
+.about-content h3{
+    font-weight: 500; 
+    font-size:22px;
+}
+
+.about-content p {
+    text-align: justify;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+/* social */
+
+.about-social ul{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.about-social ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.about-social ul li a{
+   color: black;
+}
+
+ /* download part */
+
+.about-download {
+
+    background: #F8333C;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.about-download a{
+
+    text-decoration: none;
+    color: #fff;
+    padding: 5 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/* about-img */
+
+.about-body-right{
+    overflow: hidden; 
+}
+
+.about-img img {
+    height: 380px;
+    width: 350px;
+    float: right; 
+    border: 5px solid #fad2aa; 
+    border-radius: 5px; 
+}
+
+
+/********************************************
+
+            portfolio page Design 
+
+*********************************************/
+
+
+.portfolio-body{
+
+    background: url('../images/port2-image.jpg') no-repeat top center ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.portfolio-lear{
+    background-color: rgba(0, 0, 0, .5);
+    background-size: cover;
+    height: 100vh;
+}
+
+.portfolio-table{
+    border: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    border-radius: 0 30px 0 30px;
+}
+
+.portfolio-table tr {
+
+width: 33.33%;
+}
+
+.portfolio-table tr th {
+
+font-size: 40px;
+
+padding: 30px;
+
+color: #fff;
+}
+
+.portfolio-table tr td{
+
+color: #fff900;
+
+font-size: 28px;
+
+width: 33.33%;
+
+margin: 20px 0;
+
+display: inline-block;
+}
+
+.portfolio-table tr td a {
+
+text-decoration: none;
+
+color: #ffe500;
+}
+
+
+
+
+/********************************************
+
+            Contact page Design 
+
+*********************************************/
+
+
+
+/* Contact page Body */
+
+
+.main{
+    padding: 15px;
+    background: url('../images/group2.jpg') no-repeat top center;
+    background-size: cover;
+    height: 92vh;
+    background-position: center;
+}
+.form-contain{
+    width: 400px;
+    margin: 28px auto;
+
+}
+.form-head {
+
+background-color: #F6F8FA;
+
+text-align: center;
+
+padding: 10px;
+}
+
+.form-head h3{
+
+margin: 10px 0;
+
+font-size: 26px;
+font-weight: 400;
+}
+
+.form-head p{
+
+font-size: 20px;
+
+font-weight: 100;
+}
+
+.form-body{
+
+background-color: #EDF0F3;
+
+padding: 20px;
+
+}
+
+.form-body ul li{
+
+list-style: none;
+
+margin: 0 10px;
+}
+
+.form-body ul li label{
+    
+display: block;
+    
+font-size: 18px;
+}
+
+.form-body ul li input{
+    
+display: block;
+    
+padding: 5px;
+    
+width: 100%;
+    
+border-radius: 2px;
+    
+border: 1px solid #fff;
+    
+margin: 7px 0;
+}
+
+.form-body span{
+    
+font-size: 14px;
+margin: 16px 0;
+display: block;
+line-height: 1.33333;
+font-weight: 400;
+color: rgba(0,0,0,0.6);
+text-align: center;
+
+}
+
+.form-body .submit_button{
+    
+padding: 0 8px;
+    
+background-color: #0073b1;
+    
+border-radius: 2px;
+    
+font-size: 24px;
+    
+line-height: 1.5;
+    
+font-weight: 500;
+    
+color: #fff;
+    
+border: 1px solid #0073b1;
+}
+
+
+
+
+.home-body-contain h1{
+    
+font-size: 50px;
+    
+padding-top: 50px;
+}
+
+
+
+
+/* sign-in */
+
+.sign-in{
+
+float: right;
+
+width: 60%;
+
+box-sizing: border-box;
+}
+
+
+.sign-in ul{
+
+float: right;
+}
+
+.sign-in ul li{text-decoration: none;list-style: none;display: inline-block;}
+
+.sign-in ul li input{
+    
+padding: 6px 12px;
+    
+padding: 7px 12px;
+    
+margin-left: 5px;
+    
+border: 1px solid #b3b6b9;
+    
+border-radius: 2px;
+}
+
+.sign-in .submit{
+background-color: #283E4A;
+color: #fff;
+padding: 4px 12px;
+font-size: 17px;
+border: 1px solid #fff;
+border-radius: 2px;
+}
+
+.sign-in ul li a{
+    
+color: #cdcfd2;
+    
+text-decoration: none;
+    
+padding-left: 12px;
+    
+line-height: 1.333;
+    
+font-size: 14px;
+}
+
+
+
+
+
+
+/* body css */
+
+.main{
+    padding: 15px;
+    background: url('../images/group2.jpg') no-repeat top center;
+    background-size: cover;
+    height: 92vh;
+    background-position: center;
+}
+.form-contain{
+    width: 400px;
+    margin: 28px auto;
+}
+.form-head {
+
+background-color: #F6F8FA;
+
+text-align: center;
+
+padding: 10px;
+}
+
+.form-head h3{
+
+margin: 10px 0;
+
+font-size: 26px;
+font-weight: 400;
+}
+
+.form-head p{
+
+font-size: 20px;
+
+font-weight: 100;
+}
+
+.form-body{
+
+background-color: #EDF0F3;
+
+padding: 20px;
+
+}
+
+
+.form-body ul li{
+
+list-style: none;
+
+margin: 0 10px;
+}
+
+.form-body ul li label{
+    
+display: block;
+    
+font-size: 18px;
+}
+
+.form-body ul li input{
+    
+display: block;
+    
+padding: 5px;
+    
+width: 100%;
+    
+border-radius: 2px;
+    
+border: 1px solid #fff;
+    
+margin: 7px 0;
+}
+
+.form-body span{
+    
+font-size: 14px;
+margin: 16px 0;
+display: block;
+line-height: 1.33333;
+font-weight: 400;
+color: rgba(0,0,0,0.8);
+text-align: center;
+
+}
+
+.form-body .submit_button{
+    
+padding: 0 8px;   
+background-color: #0073b1;   
+border-radius: 2px;   
+font-size: 24px;   
+line-height: 1.5;   
+font-weight: 500;   
+color: #fff;   
+border: 1px solid #0073b1;
+}
+
+
